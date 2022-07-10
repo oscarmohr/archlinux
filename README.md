@@ -10,7 +10,8 @@ Connect to the internet, update `archinstall`, clone this repository, run the in
 $ iwctl --passphrase <password> station wlan0 connect <network>
 $ pacman -S archinstall
 $ git clone "https://github.com/oscarmohr/archlinux"
-$ sh archlinux/install/install.sh
+$ cd archlinux/install
+$ sh install.sh
 $ reboot now
 ```
 
@@ -20,7 +21,8 @@ Then, on the new system:
 $ sudo systemctl enable --now iwd
 $ iwctl --passphrase <password> station wlan0 connect <network>
 $ git clone "https://github.com/oscarmohr/archlinux"
-$ sudo sh archlinux/install/post_install.sh
+$ cd archlinux/install
+$ sudo sh post_install.sh
 $ reboot now
 ```
 
