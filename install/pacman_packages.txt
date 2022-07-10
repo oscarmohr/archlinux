@@ -21,6 +21,7 @@ man-db
 man-pages
 mpv
 neovim
+pandoc
 picom
 pipewire
 pipewire-alsa
